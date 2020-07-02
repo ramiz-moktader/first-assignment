@@ -1,0 +1,105 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #EC4C79
+}
+
+p {
+  color: gray;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 200;
+}
+h6{
+  color: gray;
+  font-size: 12px;
+  font-weight:normal;
+}
+
+section {
+  height: 900px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #EC4F92, #D80E6E);
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.section-with-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  background-image: url(images/header-bg.png);
+}
+
+#biography {
+  background-image: url(images/biography-bg.png);
+}
+#message{
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.my-latest-work {
+  background-image: url(images/latest-work-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.bottom-part{
+  background-image: url(images/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.work-image {
+  width: 28%;
+  float: left;
+  margin-left: 2%;
+  padding-left: 2%;
+}
+
+.center-text {
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+}
+.message-link{
+  padding: 5px 200px ;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 200px;
+}
